@@ -14,6 +14,8 @@ public class Practice {
 		PracticeForEach.PracticeForEach();
 		System.out.println("If");
 		PracticeIf.PracticeIf();
+		System.out.println("Switch");
+		PracticeSwitch.PracticeSwitch();
 	}
 
 }

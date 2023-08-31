@@ -4,11 +4,11 @@ import java.util.Random;
 
 public class PracticeSwitch {
 
-	public static void PracticeSwhich() {
+	public static void PracticeSwitch() {
 		int[] array = new int[10];
 
 		Random rand = new Random();
-		for (int i = 0; i < arraay.length; i++) {
+		for (int i = 0; i < array.length; i++) {
 			array[i] = 1 + rand.nextInt(5);
 		}
 
