@@ -2,10 +2,18 @@ package practice;
 
 public class Practice {
 
-	public static void main(String args[]) {
-		PracticeWhile practicewhile = new PracticeWhile();
-		practicewhile.While(args);
+	public static void main(String[] args) {
+		
+		System.out.println("While");
+		PracticeWhile.PracticeWhile();
+		System.out.println("DoWhile");
+		PracticeDoWhile.PracticeDoWhile();
+		System.out.println("For");
+		PracticeFor.PracticeFor();
+		System.out.println("ForEach");
+		PracticeForEach.PracticeForEach();
+		System.out.println("If");
+		PracticeIf.PracticeIf();
 	}
-	
+
 }
-//メソッドの呼び出しで表示する。
